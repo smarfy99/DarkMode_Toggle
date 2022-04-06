@@ -8,6 +8,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    /* 뷰포트 높이값에 맞춰 */
     height: 100vh;
     margin: 0;
     transition: background 0.2s linear;
@@ -62,6 +63,7 @@ body.dark p {
 }
 
 /* label(checkbox)이 클릭되면 공의 모션 */
+/* + 연산자 : 선택자1 바로 다음에 오는 선택자 2를 선택 */
 .checkbox:checked + .label .ball {
     transform: translateX(24px);
 }
